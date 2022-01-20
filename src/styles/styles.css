@@ -161,13 +161,46 @@ body {
   color: var(--clr-text-white);
   border-radius: 5px;
   margin-top: 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.form--div {
+  position: relative;
 }
 
 .form--img {
-  width: 477px;
+  width: 100%;
   margin-top: 36px;
   border-radius: 2px;
   font-size: 16px;
   font-weight: 700;
   line-height: 19px;
+}
+
+.meme-text {
+  position: absolute;
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 39.03px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: var(--clr-text-white);
+  width: 100%;
+  text-align: center;
+  text-shadow: 3px 3px #000,
+                3px -3px #000,
+                -3px 3px #000,
+                -3px -3px #000,
+                0 3px #000,
+                3px 0 #000,
+                0 -3px #000,
+                -3px 0 #000;
+}
+
+.top-text {
+  top: 16px;
+}
+
+.bottom-text {
+  bottom: 16px;
 }
