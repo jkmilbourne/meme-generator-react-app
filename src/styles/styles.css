@@ -2,15 +2,18 @@
   --clr-lg-clr1: rgba(113, 31, 141, 1);
   --clr-lg-clr2: rgba(168, 24, 218, 1);
 
-  --clr-text-white: #FFF;
+  --clr-text-white: #fff;
   --clr-text-primary: #0d0d0d;
 
   --clr-border-light: rgba(213, 212, 216, 1);
 
-  --lg-primary: linear-gradient(90.41deg, var(--clr-lg-clr1)
-  , var(--clr-lg-clr2));
+  --lg-primary: linear-gradient(
+    90.41deg,
+    var(--clr-lg-clr1),
+    var(--clr-lg-clr2)
+  );
 
-  --bs-primary: 0 0 15px 5px rgba(0, 0, 0, .1);
+  --bs-primary: 0 0 15px 5px rgba(0, 0, 0, 0.1);
 }
 
 /* Box sizing rules */
@@ -183,18 +186,12 @@ body {
   font-size: 32px;
   font-weight: 900;
   line-height: 39.03px;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   color: var(--clr-text-white);
   width: 100%;
   text-align: center;
-  text-shadow: 3px 3px #000,
-                3px -3px #000,
-                -3px 3px #000,
-                -3px -3px #000,
-                0 3px #000,
-                3px 0 #000,
-                0 -3px #000,
-                -3px 0 #000;
+  text-shadow: 3px 3px #000, 3px -3px #000, -3px 3px #000, -3px -3px #000,
+    0 3px #000, 3px 0 #000, 0 -3px #000, -3px 0 #000;
 }
 
 .top-text {
